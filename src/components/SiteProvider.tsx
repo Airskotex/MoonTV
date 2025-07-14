@@ -14,7 +14,7 @@ export const useSite = () => useContext(SiteContext);
 export function SiteProvider({
   children,
   siteName,
-  announcement，  
+  announcement,
 }: {
   children: ReactNode;
   siteName: string;
